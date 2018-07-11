@@ -1,0 +1,134 @@
+body {
+	background-image: url(https://i.imgur.com/KUrkxaO.gif);
+	background-size: cover;
+	background-color: #333333;
+	margin: 0;
+}
+
+@font-face {
+	font-family: bebas;
+	src: url("bebasNeue-Regular.ttf");
+	
+}
+
+h1 {
+	color: white;
+	font-family: bebas;
+	font-size: 50px;
+	margin: auto;
+	padding: 20px;
+}
+
+img#logo {
+	position: absolute;
+	top: 65px;
+	left: 850px;
+	right: 500px;
+	z-index: 1;
+}
+
+div#profiles {
+	font-weight: 100;
+}
+
+ul#signup {
+	display: inline-block;
+	font-family: bebas;
+	font-size: 20px;
+	background-color: #50e3c2;
+	width: 200px;
+	color: #333333;
+}
+
+ul#support {
+	float: right;
+	font-family: bebas;
+	font-size: 20px;
+	background-color: #50e3c2;
+	width: 200px;
+}
+
+ul#support:hover {
+	color: orange;
+}
+
+ul#nav {
+	list-style-type:none;
+    overflow: hidden;
+    background-color: #50e3c2;
+	text-align: center;
+	font-family: bebas;
+	font-size: 30px;
+	color: #333333;
+}
+
+li {
+	display: inline-block;
+}
+
+li a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 16px;
+	color: #333333;
+}
+
+li a:hover {
+	background-color: white;
+}
+
+.game {
+    display:inline-block;
+    text-align: center; 
+	padding: 20px;
+}
+.game p {
+    font-size: 40px;
+    font-family: bebas;
+	color: white;
+}
+
+.game p:hover {
+	color: skyblue;
+}
+
+h2 {
+	font-family: bebas;
+	font-size: 90px;
+	top: -100px;
+	position: relative;
+	color: white;
+}
+
+p#bio {
+	font-family: bebas;	
+	width: 500px;
+	font-size: 35px;
+	text-align: right;
+	float: right;
+	margin-right: 250px;
+	color: white;
+	background-color: #333333;
+	padding: 10px;
+}
+
+/**
+img#portrait {
+	width: 300px;
+	margin-left: 250px;
+}
+
+img#lucky {
+	width: 300px;
+	margin-left: 600px;
+	position: relative;
+	top: -400px;
+}
+
+img#none {
+	width: 300px;
+	position: absolute;
+	left: 200px;
+	
+}
+**/
