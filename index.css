@@ -8,7 +8,7 @@ body {
 @font-face {
 	font-family: bebas;
 	src: url("https://github.com/lvldeath/smash-connect/blob/master/BebasNeue-Regular.ttf");
-	
+	src: url("BebasNeue-Regular.ttf")
 }
 
 h1 {
